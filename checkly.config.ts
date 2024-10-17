@@ -1,20 +1,7 @@
 import { defineConfig } from 'checkly';
-import { EmailAlertChannel, Frequency } from 'checkly/constructs';
-
-const sendDefaults = {
-  sendFailure: true,
-  sendRecovery: true,
-  sendDegraded: true,
-};
 
 // FIXME: Add your production URL
 const productionURL = 'https://demo.nextjs-boilerplate.com';
-
-const emailChannel = new EmailAlertChannel('email-channel-1', {
-  // FIXME: add your own email address, Checkly will send you an email notification if a check fails
-  address: 'contact@creativedesignsguru.com',
-  ...sendDefaults,
-});
 
 export const config = defineConfig({
   // FIXME: Add your own project name, logical ID, and repository URL
@@ -26,9 +13,9 @@ export const config = defineConfig({
     tags: ['website'],
     runtimeId: '2024.02',
     browserChecks: {
-      frequency: Frequency.EVERY_24H,
+      frequency: 1440,
       testMatch: '**/tests/e2e/**/*.check.e2e.ts',
-      alertChannels: [emailChannel],
+      alertChannels: [],
     },
     playwrightConfig: {
       use: {

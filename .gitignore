@@ -50,6 +50,11 @@ local
 # vercel
 .vercel
 
+# checkly 
+**/checkly-github-report.md
+**/checkly-summary.md
+**/e2e/__tests__/fixtures/empty-project/e2e-test-project-*
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
