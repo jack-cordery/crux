@@ -73,7 +73,7 @@ jobs:
         run: pnpm run test-storybook:ci
 
       - name: Run E2E tests
-        run: pnpx percy exec -- pnpm run test:e2e
+        run: pnpm percy exec -- pnpm run test:e2e
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
           CLERK_SECRET_KEY: ${{ secrets.CLERK_SECRET_KEY }}
