@@ -68,3 +68,5 @@ local
 # Ignore all local history of files
 .history
 .ionide
+# Sentry Config File
+.env.sentry-build-plugin
