@@ -26,14 +26,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - name: pnpm-setup
+        uses: pnpm/action-setup@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: HUSKY=0 npm ci
+          version: 9
+      - run: HUSKY=0 pnpm install
 
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+        run: pnpx semantic-release
