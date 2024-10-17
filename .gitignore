@@ -49,3 +49,29 @@ local
 
 # vercel
 .vercel
+
+# checkly 
+**/checkly-github-report.md
+**/checkly-summary.md
+**/e2e/__tests__/fixtures/empty-project/e2e-test-project-*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+# Sentry Config File
+.env.sentry-build-plugin
