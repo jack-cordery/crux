@@ -4,6 +4,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 
 import { DemoBanner } from '@/components/DemoBanner';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
+import { ModeToggle } from '@/components/ui/theme-toggle';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Layout(props: {
@@ -83,6 +84,9 @@ export default function Layout(props: {
 
             <li>
               <LocaleSwitcher />
+            </li>
+            <li className="mb-2">
+              <ModeToggle />
             </li>
           </>
         )}
