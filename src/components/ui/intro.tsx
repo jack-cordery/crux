@@ -45,14 +45,14 @@ export default function Intro() {
                 href="/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex"
+                className="inline-flex transition-all duration-100 hover:scale-110 active:scale-105"
               >
                 <span className="relative inline-block overflow-hidden rounded-full p-px">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#a9a9a9_0%,#0c0c0c_50%,#a9a9a9_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,#171717_0%,#737373_50%,#171717_100%)]" />
                   <div className="group-hover: inline-flex size-full cursor-pointer justify-center rounded-full bg-slate-100 px-4 py-2 text-sm font-medium leading-5 text-slate-600 backdrop-blur-xl dark:bg-black dark:text-slate-200">
                     Get Started ⚡️
                     <ArrowRight
-                      className="pl-0.5 text-black transition-transform duration-300 group-hover:translate-x-2 dark:text-white"
+                      className="pl-0.5 text-black opacity-70 transition-transform duration-300 group-hover:translate-x-2 dark:text-white"
                       size={20}
                     />
                   </div>
