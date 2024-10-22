@@ -4,8 +4,6 @@ import React from 'react';
 import { ModeToggle } from '@/components/ui/theme-toggle';
 import { links } from '@/lib/data';
 
-import Intro from './intro';
-
 export default function header() {
   return (
     <header className="z-[999]  flex items-center justify-center py-20 sm:py-36">
@@ -35,7 +33,6 @@ export default function header() {
       <div className="fixed  right-4 top-0 mt-1  hidden duration-500 animate-in slide-in-from-top sm:right-8 sm:top-6 md:block">
         <ModeToggle />
       </div>
-      <Intro />
     </header>
   );
 }
