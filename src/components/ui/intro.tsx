@@ -7,7 +7,7 @@ export default function Intro() {
       <div className="flex items-center justify-center">
       </div>
       <div className="flex flex-col items-center justify-center duration-500 ease-out animate-in fade-in zoom-in ">
-        <h2 className="text-center text-3xl font-medium text-gray-900 dark:text-gray-50 md:text-6xl">
+        <h1 className="text-center text-3xl font-medium text-gray-900 dark:text-gray-50 md:text-6xl">
           <span className="underline-gradient animate-background bg-[left_0%_bottom-0%] bg-[length:200%_15%] bg-repeat-x">
             Empowering Leadership
             {' '}
@@ -17,7 +17,7 @@ export default function Intro() {
               with Engineering Insights
             </span>
           </span>
-        </h2>
+        </h1>
         <div className="mt-10 space-y-2 text-center font-light text-gray-700 dark:text-slate-200">
           <p>
             Welcome to
