@@ -1,12 +1,14 @@
 import '@/styles/global.css';
 
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
-import { DemoBadge } from '@/components/DemoBadge';
 import { ThemeProvider } from '@/components/theme-provider';
 import { AppConfig } from '@/utils/AppConfig';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   icons: [
@@ -48,7 +50,7 @@ export default function RootLayout(props: {
 
   return (
     <html lang={props.params.locale}>
-      <body>
+      <body className={`${inter.className}`}>
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}
@@ -61,7 +63,6 @@ export default function RootLayout(props: {
           >
             {props.children}
           </ThemeProvider>
-          <DemoBadge />
         </NextIntlClientProvider>
       </body>
     </html>

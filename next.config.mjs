@@ -18,6 +18,14 @@ const bundleAnalyzer = withBundleAnalyzer({
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(withSentryConfig(bundleAnalyzer(
   withNextIntlConfig({
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'images.unsplash.com',
+        },
+      ],
+    },
     eslint: {
       dirs: ['.'],
     },
