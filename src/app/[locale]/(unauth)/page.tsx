@@ -1,3 +1,4 @@
+import About from '@/components/ui/about';
 import Header from '@/components/ui/header';
 import Intro from '@/components/ui/intro';
 import SectionDivider from '@/components/ui/section-divider';
@@ -5,11 +6,12 @@ import SectionDivider from '@/components/ui/section-divider';
 export default function Home() {
   return (
     <>
-      <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(#c0c0c0_1px,transparent_1px)] [background-size:20px_20px] dark:bg-[#000000] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]"></div>
+      <div className="fixed top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(#c0c0c0_1px,transparent_1px)] [background-size:20px_20px] dark:bg-[#000000] dark:bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]"></div>
       <main className="flex flex-col items-center justify-center">
         <Header />
         <Intro />
         <SectionDivider />
+        <About />
       </main>
     </>
   );
