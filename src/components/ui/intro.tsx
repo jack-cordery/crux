@@ -1,9 +1,19 @@
+'use client';
+
 import { ArrowRight } from 'lucide-react';
 import React from 'react';
 
+import { useSectionInView } from '@/lib/hooks';
+
 export default function Intro() {
+  const { ref } = useSectionInView('Home');
+
   return (
-    <section>
+    <section
+      id="home"
+      className="mb-20 scroll-m-[100rem]"
+      ref={ref}
+    >
       <div className="flex items-center justify-center">
       </div>
       <div className="flex flex-col items-center justify-center duration-500 ease-out animate-in fade-in zoom-in ">

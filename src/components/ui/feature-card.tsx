@@ -20,7 +20,7 @@ export default function FeatureCard({ title, description, tags, imageUrl }: Feat
     <motion.section
       ref={sectionRef}
       style={{ scale: scaleProgress, opacity: opacityProgress }}
-      className=" group relative h-[100] max-w-2xl overflow-hidden rounded-lg border border-black/5 bg-gray-100/60 p-4 shadow-xl dark:bg-slate-900/60"
+      className="group relative h-[100] max-w-2xl overflow-hidden rounded-lg border border-black/5 bg-gray-100/60 p-4 shadow-xl dark:bg-slate-900/60"
     >
       <div className="h-full w-1/2 px-2 py-4 group-even:ml-80 sm:pl-5 sm:pt-5">
         <h3 className="text-2xl font-bold">{title}</h3>
