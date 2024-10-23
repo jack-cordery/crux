@@ -17,8 +17,8 @@ export const links = [
     hash: '#about',
   },
   {
-    name: 'Projects',
-    hash: '#projects',
+    name: 'Features',
+    hash: '#features',
   },
   {
     name: 'Skills',
@@ -61,26 +61,23 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const featuresData = [
   {
-    title: 'CorpComment',
-    description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
+    title: 'Engineering Velocity Dashboard',
+    description: 'A real-time dashboard that visualizes key engineering metrics such as sprint velocity, code commit frequency, and time to deployment. This feature helps leaders quickly assess team productivity and identify bottlenecks in the development process.',
+    tags: ['Productivity', 'Metrics', 'Visualization', 'Real-time'],
     imageUrl: corpcommentImg,
   },
   {
-    title: 'rmtDev',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+    title: 'Tech Stack Health Analyzer',
+    description: 'An intelligent tool that analyzes your organization\'s tech stack, highlighting areas of technical debt, outdated technologies, and potential security vulnerabilities. It provides actionable recommendations for modernization and risk mitigation, enabling leaders to make informed decisions about technology investments.',
+    tags: ['Tech Stack', 'Security', 'Modernization', 'Risk Management'],
     imageUrl: rmtdevImg,
   },
   {
-    title: 'Word Analytics',
-    description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+    title: 'Cross-Team Collaboration Insights',
+    description: 'A feature that maps and analyzes collaboration patterns across engineering teams, identifying silos, communication bottlenecks, and opportunities for knowledge sharing. It helps leaders foster a more collaborative engineering culture and optimize team structures for better project outcomes.',
+    tags: ['Collaboration', 'Team Dynamics', 'Communication', 'Organizational Structure'],
     imageUrl: wordanalyticsImg,
   },
 ] as const;

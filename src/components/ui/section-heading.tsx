@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="mb-8 text-2xl">{children}</h2>
+    <h2 className="mb-8 text-center text-2xl">{children}</h2>
   );
 }

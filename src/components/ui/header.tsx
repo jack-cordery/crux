@@ -7,8 +7,8 @@ import { links } from '@/lib/data';
 export default function header() {
   return (
     <header className="z-[999]  flex items-center justify-center py-20 sm:py-36">
-      <div className="fixed left-4 top-0  hidden duration-500 animate-in slide-in-from-top sm:right-8 sm:top-6 sm:block">
-        <h1 className="text-6xl font-semibold">
+      <div className="fixed left-4 top-0  hidden duration-500 animate-in slide-in-from-top sm:right-8 sm:top-6 md:block">
+        <h1 className=" text-2xl font-semibold lg:text-6xl">
           <span className="text-black dark:text-white">Crux</span>
         </h1>
       </div>

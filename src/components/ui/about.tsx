@@ -1,10 +1,10 @@
 import React from 'react';
 
-import SectionHeading from '@/components/section-heading';
+import SectionHeading from '@/components/ui/section-heading';
 
 export default function About() {
   return (
-    <section className="delay-275 mx-auto max-w-3xl px-4 text-center duration-300 animate-in fade-in slide-in-from-bottom">
+    <section className="delay-[275ms] mx-auto max-w-3xl px-4 text-center duration-300 animate-in fade-in slide-in-from-bottom">
       <SectionHeading>About us</SectionHeading>
       <p className="font-light text-gray-700 dark:text-slate-200">
         At

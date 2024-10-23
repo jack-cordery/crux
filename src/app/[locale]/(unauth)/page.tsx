@@ -1,4 +1,5 @@
 import About from '@/components/ui/about';
+import Features from '@/components/ui/features';
 import Header from '@/components/ui/header';
 import Intro from '@/components/ui/intro';
 import SectionDivider from '@/components/ui/section-divider';
@@ -12,6 +13,8 @@ export default function Home() {
         <Intro />
         <SectionDivider />
         <About />
+        <SectionDivider />
+        <Features />
       </main>
     </>
   );
