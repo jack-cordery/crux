@@ -79,23 +79,53 @@ export const featuresData = [
 ] as const;
 
 export const languagesData = [
-  'HTML',
-  'CSS',
+  // Programming Languages
   'JavaScript',
   'TypeScript',
-  'React',
-  'Next.js',
-  'Node.js',
-  'Git',
-  'Tailwind',
-  'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
   'Python',
-  'Django',
-  'Framer Motion',
+  'Java',
+  'C++',
+  'C#',
+  'Go',
+  'Rust',
+  'Ruby',
+  'PHP',
+  'Swift',
+  'Kotlin',
+
+  // Web Technologies
+  'HTML',
+  'CSS',
+  'React',
+  'Angular',
+  'Vue.js',
+  'Node.js',
+
+  // Database Technologies
+  'SQL',
+
+  // DevOps and Infrastructure
+  'Docker',
+  'Kubernetes',
+  'Jenkins',
+  'GitLab CI',
+  'GitHub Actions',
+  'Terraform',
+  'Ansible',
+
+  // Cloud Platforms
+  'AWS',
+  'Azure',
+  'Google Cloud',
+
+  // API Technologies
+  'REST',
+  'GraphQL',
+  'gRPC',
+
+  // Architecture Patterns
+  'Microservices',
+  'Serverless',
+  'Event-Driven Architecture',
+
 ] as const;
