@@ -1,9 +1,12 @@
 import About from '@/components/ui/about';
+import Contact from '@/components/ui/contact';
 import Features from '@/components/ui/features';
 import Header from '@/components/ui/header';
 import Intro from '@/components/ui/intro';
 import Languages from '@/components/ui/languages';
 import SectionDivider from '@/components/ui/section-divider';
+import { Timeline } from '@/components/ui/timeline';
+import { timelineData } from '@/components/ui/timeline-data';
 import ActiveSectionContextProvider from '@/context/active-section';
 
 export default function Home() {
@@ -20,6 +23,10 @@ export default function Home() {
           <About />
           <SectionDivider />
           <Languages />
+          <SectionDivider />
+          <Timeline data={timelineData} />
+          <SectionDivider />
+          <Contact />
         </ActiveSectionContextProvider>
       </main>
     </>

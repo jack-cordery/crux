@@ -25,6 +25,10 @@ export const links = [
     hash: '#languages',
   },
   {
+    name: 'Roadmap',
+    hash: '#roadmap',
+  },
+  {
     name: 'Contact',
     hash: '#contact',
   },

@@ -22,7 +22,7 @@ export default withSentryConfig(withSentryConfig(bundleAnalyzer(
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'images.unsplash.com',
+          hostname: 'assets.aceternity.com',
         },
       ],
     },
