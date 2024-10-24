@@ -21,12 +21,8 @@ export const links = [
     hash: '#about',
   },
   {
-    name: 'Skills',
-    hash: '#skills',
-  },
-  {
-    name: 'Experience',
-    hash: '#experience',
+    name: 'Languages',
+    hash: '#languages',
   },
   {
     name: 'Contact',
@@ -82,7 +78,7 @@ export const featuresData = [
   },
 ] as const;
 
-export const skillsData = [
+export const languagesData = [
   'HTML',
   'CSS',
   'JavaScript',

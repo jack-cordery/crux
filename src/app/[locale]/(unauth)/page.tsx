@@ -2,6 +2,7 @@ import About from '@/components/ui/about';
 import Features from '@/components/ui/features';
 import Header from '@/components/ui/header';
 import Intro from '@/components/ui/intro';
+import Languages from '@/components/ui/languages';
 import SectionDivider from '@/components/ui/section-divider';
 import ActiveSectionContextProvider from '@/context/active-section';
 
@@ -17,6 +18,8 @@ export default function Home() {
           <Features />
           <SectionDivider />
           <About />
+          <SectionDivider />
+          <Languages />
         </ActiveSectionContextProvider>
       </main>
     </>
