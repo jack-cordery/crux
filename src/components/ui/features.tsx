@@ -12,7 +12,7 @@ export default function Features() {
 
   return (
     <section
-      className="mx-auto max-w-3xl scroll-m-28 px-4 duration-300 animate-in fade-in slide-in-from-bottom"
+      className="mx-auto max-w-3xl scroll-m-28 px-4"
       id="features"
       ref={ref}
     >
