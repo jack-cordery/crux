@@ -33,11 +33,11 @@ export default function Contact() {
             rows={8}
           />
           <button
-            className="mx-auto mt-4 flex w-32 items-center justify-center rounded-lg bg-black px-4 py-2 text-white dark:bg-white dark:text-gray-900 md:w-48"
+            className="group mx-auto mt-4 flex w-32 items-center justify-center rounded-lg bg-black px-4 py-2 text-white hover:scale-105 dark:bg-white dark:text-gray-900 md:w-48"
             type="submit"
           >
             Submit
-            <FaPaperPlane className="ml-2 " />
+            <FaPaperPlane className="ml-2 group-hover:-translate-y-1 group-hover:translate-x-2 group-hover:scale-110" />
           </button>
         </form>
       </div>
