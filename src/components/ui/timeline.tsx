@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <SectionHeading>Roadmap</SectionHeading>
       <div
-        className="mx-20 mt-20 w-auto overflow-hidden rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 font-sans outline outline-1 outline-white/20 dark:bg-gradient-to-r dark:from-slate-900/50 dark:to-slate-700/50 md:px-10"
+        className="mx-4 my-20 w-auto overflow-hidden rounded-lg bg-gradient-to-r from-fuchsia-500 to-cyan-500 font-sans outline outline-1 outline-white/20 dark:bg-gradient-to-r dark:from-slate-900/50 dark:to-slate-700/50 md:mx-20 md:px-10"
         ref={containerRef}
 
       >
