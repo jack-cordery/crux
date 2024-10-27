@@ -1,5 +1,5 @@
 import About from '@/components/ui/about';
-import Contact from '@/components/ui/contact';
+import ContactUs from '@/components/ui/contact-us';
 import Features from '@/components/ui/features';
 import Header from '@/components/ui/header';
 import Intro from '@/components/ui/intro';
@@ -26,7 +26,7 @@ export default function Home() {
           <SectionDivider />
           <Timeline data={timelineData} />
           <SectionDivider />
-          <Contact />
+          <ContactUs />
         </ActiveSectionContextProvider>
       </main>
     </>
