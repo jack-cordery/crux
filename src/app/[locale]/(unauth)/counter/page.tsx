@@ -6,9 +6,9 @@ import { Suspense } from 'react';
 import { CounterForm } from '@/components/CounterForm';
 import { CurrentCount } from '@/components/CurrentCount';
 
-export async function generateMetadata(props: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
-    locale: (await props.params).locale,
+    locale: props.params.locale,
     namespace: 'Counter',
   });
 
